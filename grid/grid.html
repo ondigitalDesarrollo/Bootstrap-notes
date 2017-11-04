@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Grid</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+    <!-- El (.container) es el contenedor principal, en el iran las filas y columnas -->
+    <!-- El (.container) permite centrar la página -->
+    <div class="container">
+        <!-- Las filas (.row)  son grupos HORIZONTALES de columnas-->
+        <div class="row">
+            <!-- Todo el Contenido debe ir dentro de columnas (.col) -->
+            <!-- Y las Columnas deben ir siempre dentro de filas (.row) -->
+            <!-- 
+                Los Tamaños de Columna en Boostrap v4 son:
+                .col        Extra pequeño (Extra Small) - Smartphones Vertical      Menos de 544px
+                .col-sm     Pequeño (Small) - Smartphones Vertical                  Más de 544px y menos de 768px
+                .col-md     Mediano (Medium) - Tablets                              Más de 768px y menos de 992px
+                .col-lg     Largo (Large) - Computadoras                            Más de 992px y menos de 1200px
+                .col-lg     Extra Largo (Extra Large) - Computadoras                Más de 1200px
+             -->
+
+            <div class="col-12">
+                <h1>Lorem, ipsum. </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sapiente inventore dolor repellat accusamus ad minus magnam asperiores alias nisi?</p>
+            </div>
+            <div class="col-6">
+                <h1>Lorem, ipsum. </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sapiente inventore dolor repellat accusamus ad minus magnam asperiores alias nisi?</p>
+            </div>
+            <div class="col-6">
+                <h1>Lorem, ipsum. </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sapiente inventore dolor repellat accusamus ad minus magnam asperiores alias nisi?</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
