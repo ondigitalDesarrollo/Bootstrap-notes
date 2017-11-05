@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Align Columns Horizontal</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+    <style> 
+        /* Developers */
+        .row{
+            margin: 40px 0;
+            background: #e8e8e8e8;
+        }
+
+        .columna{
+            background: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5061;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <div class="row justify-content-start">
+           <div class="columna col-4">Columna 1</div>
+           <div class="columna col-4">Columna 2</div>
+       </div>
+       <div class="row justify-content-center">
+           <div class="columna col-4">Columna 1</div>
+           <div class="columna col-4">Columna 2</div>
+       </div>
+       <div class="row justify-content-end">
+           <div class="columna col-4">Columna 1</div>
+           <div class="columna col-4">Columna 2</div>
+       </div>
+       <div class="row justify-content-around">
+           <div class="columna col-4">Columna 1</div>
+           <div class="columna col-4">Columna 2</div>
+       </div>
+       <div class="row justify-content-between">
+           <div class="columna col-4">Columna 1</div>
+           <div class="columna col-4">Columna 2</div>
+       </div>
+   </div>
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
