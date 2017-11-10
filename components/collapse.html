@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Collapse</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+</head>
+
+<body>
+   <div class="container">
+       <div class="row mt-3">
+           <div class="col-6">
+                <p><a href="#bloque1" class="btn btn-primary" aria-expanded="false" aria-controls="bloque1" data-toggle="collapse">Bloque 1</a></p>
+                <div class="collapse" id="bloque1">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h3>Lorem, ipsum dolor.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vero?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+
+       <div class="row mt-3">
+           <div class="col-12">
+               <div id="acordion" role="tablist" aria-multiselectable="true">
+                   <!-- Card #1 -->
+                   <div class="card">
+                       <div class="card-header" role="tab" id="heading1">
+                           <h5 class="mb-0">
+                               <a href="#collapse1" data-toggle="collapse" dta-parent="#acordion" aria-expanded="true" aria-controls="collapse1">Contenido 1</a>
+                           </h5>
+                       </div>
+                       <div id="collapse1"  class="collapse" role="tabpanel" aria-labelledby="heading1">
+                            <div class="card-body">
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sunt iusto ea nisi facilis ipsa ex esse vel ipsam, distinctio sint, itaque quod aliquid eligendi ducimus beatae. Necessitatibus obcaecati autem eos praesentium impedit. Delectus iure eius non, molestias explicabo atque.</p>
+                            </div>
+                       </div>
+                   </div>
+                   <!-- Card #1 -->
+                   <div class="card">
+                       <div class="card-header" role="tab" id="heading2">
+                           <h5 class="mb-0">
+                               <a href="#collapse2" data-toggle="collapse" dta-parent="#acordion" aria-expanded="true" aria-controls="collapse2">Contenido 2</a>
+                           </h5>
+                       </div>
+                       <div id="collapse2"  class="collapse" role="tabpanel" aria-labelledby="heading2">
+                            <div class="card-body">
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sunt iusto ea nisi facilis ipsa ex esse vel ipsam, distinctio sint, itaque quod aliquid eligendi ducimus beatae. Necessitatibus obcaecati autem eos praesentium impedit. Delectus iure eius non, molestias explicabo atque.</p>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
