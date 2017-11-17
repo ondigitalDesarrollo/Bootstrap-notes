@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Forms</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-12">
+                <div class="form mt-3">
+                    <h2>Checkbox Custom</h2>
+                    <hr>
+                    <!-- Custom Checkbox -->
+                    <div class="form-check">
+                        <label  class="custom-control custom-checkbox">
+                            <input type="checkbox" name="" id="" value="Hombre" class="custom-control-input"> 
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Acepto los términos y condiciones</span>
+                        </label>
+                    </div>
+                    <!-- Custom Checkbox Disabled -->
+                    <div class="form-check">
+                        <label  class="custom-control custom-checkbox">
+                            <input type="checkbox" name="" id="" value="Hombre" class="custom-control-input" disabled> 
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Disabled</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-3">
+            <div class="col-12">
+                <div class="form mt-3">
+                    <h2>Radios Custom</h2>
+                    <hr>
+                    <!-- Custom radio -->
+                    <div class="form-check">
+                        <label  class="custom-control custom-radio">
+                            <input type="radio" name="sexo" id="" value="Hombre" class="custom-control-input"> 
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Hombre</span>
+                        </label>
+                    </div>
+                    <!-- Custom radio -->
+                    <div class="form-check">
+                        <label  class="custom-control custom-radio">
+                            <input type="radio" name="sexo" id="" value="Hombre" class="custom-control-input"> 
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Mujer</span>
+                        </label>
+                    </div>
+                    <!-- Custom radio Disabled -->
+                    <div class="form-check">
+                        <label  class="custom-control custom-radio">
+                            <input type="radio" name="" id="" value="Hombre" class="custom-control-input" disabled> 
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Disabled</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-3">
+            <!-- Select Personalizado -->
+            <div class="col-6">
+                <form action="">
+                    <h3>Select Personalizado</h3>
+                    <select name="" id="" class="custom-select">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </form>
+            </div>
+            Select Normal
+            <div class="col-6">
+                <form action="">
+                    <h3>Select Normal</h3>
+                    <select name="" id="">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
