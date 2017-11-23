@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List Group</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row my-3">
+            <!-- List Group -->
+            <div class="col-4">
+                <div class="list-group" id="list" role="tablist">
+                    <a href="#elemento1" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="elemento1">Item 1</a>
+                    <a href="#elemento2" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="elemento2">Item 2</a>
+                    <a href="#elemento3" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="elemento3">Item 3</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="elemento1" role="tabPanel" aria-labelledby="elemento1">
+                        <h3>Encabezado 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quam praesentium laudantium alias error incidunt? Pariatur molestias unde consequuntur sit.</p>
+                    </div>
+                    <div class="tab-pane fade show" id="elemento2" role="tabPanel" aria-labelledby="elemento2">
+                        <h3>Encabezado 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quam praesentium laudantium alias error incidunt? Pariatur molestias unde consequuntur sit.</p>
+                    </div>
+                    <div class="tab-pane fade show" id="elemento3" role="tabPanel" aria-labelledby="elemento3">
+                        <h3>Encabezado 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quam praesentium laudantium alias error incidunt? Pariatur molestias unde consequuntur sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
