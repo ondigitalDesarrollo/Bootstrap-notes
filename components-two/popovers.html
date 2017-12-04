@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navbars</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <h2>Popovers</h2>
+                <hr>
+                <button class="btn btn-primary" type="button" data-container="body" data-placement="top" data-toggle="popover" title="Titulo" data-content="lorem ipsum lorem ipsum lorem ipsum">Alerta</button>
+                <button class="btn btn-primary" type="button" data-container="body" data-placement="right" data-toggle="popover" title="Titulo" data-content="lorem ipsum lorem ipsum lorem ipsum">Derecha</button>
+                <button class="btn btn-primary" type="button" data-container="body" data-placement="bottom" data-toggle="popover" title="Titulo" data-content="lorem ipsum lorem ipsum lorem ipsum">Abajo</button>
+                <button class="btn btn-primary" type="button" data-container="body" data-placement="left" data-toggle="popover" title="Titulo" data-content="lorem ipsum lorem ipsum lorem ipsum">Izquierda</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+    <!-- Main -->
+    <script>
+        $(document).ready(() => {
+            $('[data-toggle="popover"]').popover({
+                // trigger: 'focus'
+            })
+        });
+    </script>
+</body>
+
+</html>
