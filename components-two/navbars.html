@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navbars</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+    <style>
+        .ar-nav .nav-link {
+            padding: 20px;
+        }
+        body {
+            /* padding-top: 56px; */
+            /* padding-bottom: 56px; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .navbar-expanded-lg    Sirve para indicar en que punto aparecera toggler -->
+    <!-- .navbar-light          Indicaremos que usaremos un fondo blanco -->
+    <!-- .navbar-dark           Indicaremos que usaremos un fondo oscuro -->
+    <!-- .bg-light              Indicaremos que usaremos un fondo light para el navbar -->
+    <!-- También podemos darle nuestro propio color de fondo con css -->
+    
+    <!-- .fixed-top             Nos permite fijar el menu en la parte superior -->
+    <!-- .fixed-bottom          Nos permite fijar el menu en la parte inferior -->
+    
+    <!-- Menú -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Menu" aria-controls="Menu"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="c" data-toggle="dropdown" aria-haspopup="true">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="c">
+                            <a href="#" class="dropdown-item">HTML</a>
+                            <a href="#" class="dropdown-item">CSS</a>
+                            <a href="#" class="dropdown-item">JavaScript</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link disabled">Acerca</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+                <form action="" class="form-inline my-2 my-lg-0">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Buscar..." aria-label="Buscar">
+                    <button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <a href="#" class="navbar-brand">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Menu" aria-controls="Menu"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="c" data-toggle="dropdown" aria-haspopup="true">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="c">
+                            <a href="#" class="dropdown-item">HTML</a>
+                            <a href="#" class="dropdown-item">CSS</a>
+                            <a href="#" class="dropdown-item">JavaScript</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link disabled">Acerca</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+                <form action="" class="form-inline my-2 my-lg-0">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Buscar..." aria-label="Buscar">
+                    <button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container">
+            <a href="#" class="navbar-brand">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Menu" aria-controls="Menu"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="c" data-toggle="dropdown" aria-haspopup="true">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="c">
+                            <a href="#" class="dropdown-item">HTML</a>
+                            <a href="#" class="dropdown-item">CSS</a>
+                            <a href="#" class="dropdown-item">JavaScript</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link disabled">Acerca</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+                <form action="" class="form-inline my-2 my-lg-0">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Buscar..." aria-label="Buscar">
+                    <button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- /Menú -->
+
+    
+    <!-- Contenido -->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <div class="jumbotron">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores beatae, commodi maiores impedit perferendis itaque id sed cum dignissimos eligendi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:1000px;">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo consectetur aperiam fuga ut numquam beatae natus, recusandae error explicabo, voluptate praesentium molestiae iusto. A numquam accusamus est vero ducimus.</p>
+            </div>
+        </div>
+    </div>
+    <!-- /Contenido -->
+    
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
