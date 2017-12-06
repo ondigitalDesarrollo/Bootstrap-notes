@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clearfix and Borders</title>
+    <!-- Boostrapv4 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+    <style>
+        .caja {
+            width: 100px;
+            height: 100px;
+            background: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row my-3">
+            <div class="col">
+                <div class="bg-primary text-white p-2 mb-4">Elemento de tipo bloque</div>
+                <span class="bg-success d-inline-block text-white p-2 mb-4">Elemento de tipo linea (Convertido a inline-block)</span>
+                <span class="bg-success d-inline-block text-white p-2 mb-4">Elemento de tipo linea (Convertido a inline-block)</span>
+                
+                <div class="bg-primary text-white d-inline-block p-2 mb-4">Elemento de tipo bloque (Convertido a inline-block)</div>
+                <span class="bg-success d-block text-white p-2 mb-4">Elemento de tipo linea (Convertido a block)</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-primary clearfix">
+                    <div class="caja float-left d-inline-block"></div>
+                    <div class="caja float-right d-inline-block"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="../js/popper.js"></script>
+    <!-- Boostrapv4 JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
