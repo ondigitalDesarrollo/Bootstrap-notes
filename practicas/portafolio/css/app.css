@@ -1,0 +1,57 @@
+/***
+@name: Arnold Restrepo Hernández Desarrollador Fornt-end
+@package: app.css
+**/
+
+/* 1.Body */
+body{
+    background: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* 2.Header */
+header{
+    margin-top: 30px;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #FFFFFF; 
+}
+
+/* 3.Logotipo */
+header .logo h2,
+header .logo span,
+header .logo p{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logo h2{font-weight: 700;}
+header .logo .icono{color: #BFBFBF;}
+header .logo p{color: #777777;}
+
+/* 4.Nav */
+header .menu{padding: 0;}
+header .menu a{
+    display: block;
+    text-decoration: none; 
+    color: #FFFFFF;
+    padding: 0 30px;
+}
+header .menu a div span{font-weight: 700;}
+/* 4.1.Colors */
+header .menu .color-1{background: #3DA5E2;}
+header .menu .color-2{background: #005385;}
+header .menu .color-3{background: #003855;}
+
+header .menu .color-1:hover{background: #1BA0EF;}
+header .menu .color-2:hover{background: #00426A;}
+header .menu .color-3:hover{background: #002E44;}
+
+/* 5.Slider */
+.slider{margin-bottom: 40px;}
+.slider .col{padding: 0;}
