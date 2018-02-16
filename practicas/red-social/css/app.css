@@ -16,6 +16,7 @@
     --bgLightBlue: #099efc;
     --ColorAncle: #1176b6;
     --ColorGray: #6d6d6d6d;
+    --ColorBlack: #3d3c3c;
     /* Tipography */
     --FontTitle: 'Open Sans', sans-serif;
     --FontBody: 'Roboto', sans-serif;
@@ -60,14 +61,8 @@ a:hover {
 
 
 /* Logo */
-
-.Logo {}
-
-.Logo__img {
-    height: 22px;
-}
-
-
+.Logo {padding: 0;}
+.Logo__img {height: 22px;}
 /* Buscar */
 
 .Buscar {}
@@ -114,6 +109,21 @@ a:hover {
 }
 .Menu__thumb{
     border-radius: 100px;
+}
+
+/* Main */
+.Main{padding-top: 20px; }
+
+/* SidebarLeft */
+.SidebarLeft{
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+.SidebarLeftNav__link{
+    display: block;
+    padding: 3px;
+    color: var(--ColorBlack);
 }
 
 /*========== Utilities ==========*/
