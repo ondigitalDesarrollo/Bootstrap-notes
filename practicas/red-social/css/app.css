@@ -1,0 +1,129 @@
+/** 
+* Red Social
+* @package
+* @author 
+*/
+
+
+/*========== Settings ==========*/
+
+:root {
+    /* Colors */
+    --bgBody: #e9ebee;
+    --bgPrimary: #1176b6;
+    --bgWhite: #FFFFFF;
+    --bgWhiteOpacity: rgba(255,255,255,.8);
+    --bgLightBlue: #099efc;
+    --ColorAncle: #1176b6;
+    --ColorGray: #6d6d6d6d;
+    --ColorBlack: #3d3c3c;
+    /* Tipography */
+    --FontTitle: 'Open Sans', sans-serif;
+    --FontBody: 'Roboto', sans-serif;
+    --transition: all 200ms ease;
+}
+
+
+/*========== Tools ==========*/
+
+
+/*========== Generic ==========*/
+
+body {
+    background: var(--bgBody);
+    font-family: var(--FontBody);
+}
+
+a {
+    color: var(--ColorAncle);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*========== Elements ==========*/
+
+
+/*========== Objects ==========*/
+
+
+/*========== Components ==========*/
+
+
+/* Header */
+
+.Header {
+    background-color: var(--bgPrimary);
+    padding: 10px 0;
+}
+
+
+/* Logo */
+.Logo {padding: 0;}
+.Logo__img {height: 22px;}
+/* Buscar */
+
+.Buscar {}
+
+.Buscar__form {}
+
+.Buscar__form__input__text {
+    width: 100%;
+    background-color: var(--bgWhite);
+    border: none;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 25px;
+    border-radius: 3px 0 0 3px;
+}
+
+.Buscar__form__submit {
+    width: 100%;
+    background: var(--bgWhite);
+    border: none;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 25px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    color: var(--ColorGray);
+    transition: var(--transition);
+}
+
+.Buscar__form__submit:hover{
+    background: var(--bgLightBlue);
+    color: var(--bgWhite);
+}
+
+/* Menu */
+
+.Menu{padding: 0;}
+.Menu__link{
+    color: var(--bgWhiteOpacity);
+    text-decoration: none;
+}
+.Menu__link:hover{
+    color: var(--bgWhite);
+}
+.Menu__thumb{
+    border-radius: 100px;
+}
+
+/* Main */
+.Main{padding-top: 20px; }
+
+/* SidebarLeft */
+.SidebarLeft{
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+.SidebarLeftNav__link{
+    display: block;
+    padding: 3px;
+    color: var(--ColorBlack);
+}
+
+/*========== Utilities ==========*/
