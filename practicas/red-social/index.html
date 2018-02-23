@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- /Bootstrap -->
     <!-- App -->
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.min.css">
     <!-- /App -->
 </head>
 <body>
@@ -45,8 +45,8 @@
                 <!-- Menu -->
                 <nav class="col-xs-12 col-sm-3 col-lg-2 order-1 order-sm-2 d-flex justify-content-between ml-auto Menu">
                     <a href="#" class="Menu__link"><i class="icon-users"></i></a>
-                    <a href="#" class="Menu__link"><i class="icon-bell-alt"></i></a>
                     <a href="#" class="Menu__link"><i class="icon-chat"></i></a>
+                    <a href="#" class="Menu__link"><i class="icon-bell"></i></a>
                     <a href="#" class="Menu__link">
                         <img clas="Menu__thumb" src="img/persona2.jpg" width="22" height="22" alt="perfil"> 
                     </a>
@@ -67,15 +67,32 @@
                      <a href="#" class="SidebarLeftNav__link"><i class="SidebarLeftNav__icon icon-mail"></i> Mensajes Privados</a>
                      <a href="#" class="SidebarLeftNav__link"><i class="SidebarLeftNav__icon icon-chat"></i> Chat</a>
                      <a href="#" class="SidebarLeftNav__link"><i class="SidebarLeftNav__icon icon-picture"></i> Imágenes</a>
-                     <a href="#" class="SidebarLeftNav__link"><i class="SidebarLeftNav__icon icon-music"></i> Música</a>
+                     <a href="#" class="SidebarLeftNav__link"><i class="SidebarLeftNav__icon icon-play"></i> Video</a>
                      <a href="#" class="SidebarLeftNav__link"><i class="SidebarLeftNav__icon icon-book"></i> Libros</a>
                  </nav>
             </div>
             <!-- /Sidebar Left -->
+
+            <!-- Background Ancle -->
+            <a href="#" class="BackgroundAncle d-md-none" id="BackgroundAncle"></a>
+            <!-- /Background Ancle -->
+
+            <!-- Main Content -->
             <div class="col Content">
                 <div class="Post">
                     <!-- Content -->
-                    <div class="row"></div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <!-- Menu Mobile -->
+                                <a href="#" class="MenuMobile d-md-none d-flex justify-content-between" id="MenuMobile">
+                                    <span class="MenuMobile__text">Menu</span>
+                                    <i class="MenuMobile-icon icon-menu"></i>
+                                </a>
+                            <!-- /Menu Mobile -->
+                        </div>
+                    </div>
+
                     <div class="row">
                         <div class="col">
                             <div class="media">
@@ -112,8 +129,8 @@
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident error aliquam recusandae cupiditate iste placeat.
                             </div>
                             <div class="New__buttons d-flex justify-content-between align-items-center">
-                                <button class="New__button"><i class="New__button__icon icon-music"></i></button>
-                                <p class="New__like">15 <i class="New__like__icon icon-music"></i></p>
+                                <button class="New__button"><i class="New__button__icon icon-thumbs-up"></i></button>
+                                <p class="New__like">15 <i class="New__like__icon icon-thumbs-up"></i></p>
                             </div>
 
                             <div class="Comments">
@@ -164,10 +181,10 @@
                             </div>
                             <div class="New__buttons d-flex justify-content-between align-items-center">
                                 <button class="New__button">
-                                    <i class="New__button__icon icon-music"></i>
+                                    <i class="New__button__icon icon-thumbs-up"></i>
                                 </button>
                                 <p class="New__like">15
-                                    <i class="New__like__icon icon-music"></i>
+                                    <i class="New__like__icon icon-thumbs-up"></i>
                                 </p>
                             </div>
                 
@@ -209,9 +226,31 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 SidebarRight">
+            <!-- /Main Content -->
 
+            <!-- Sidebar Right -->
+            <div class="col-12 col-md-3 SidebarRight d-none d-lg-block">
+                <!-- Publicidad -->
+                <div class="Promo">
+                    <h3 class="Promo__title">Publicidad</h3>
+                    <div class="Promo__ads">
+                        <a href="#" class="Promo__link"><img src="img/ad1.jpg" width="300" class="Promo__image" alt="Promo"></a>
+                        <a href="#" class="Promo__link"><img src="img/ad2.jpg" width="300" class="Promo__image" alt="Promo"></a>
+                        <a href="#" class="Promo__link"><img src="img/ad3.jpg" width="300" class="Promo__image" alt="Promo"></a>
+                    </div>
+                </div>
+                <!-- Publicidad -->
+
+                <!-- Footer -->
+                <Footer class="Footer">
+                    <a href="#" class="Footer__link">Privacidad</a>
+                    <a href="#" class="Footer__link">Condiciones</a>
+                    <a href="#" class="Footer__link">Publicidad</a>
+                    <p class="Footer__copyright">&copy; Arnold Restrepo - 2018</p>
+                </Footer>
+                <!-- /Footer -->
             </div>
+            <!-- /Sidebar Right -->
         </div>
     </Main>
     <!-- /Main -->
